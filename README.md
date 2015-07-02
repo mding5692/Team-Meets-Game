@@ -22,3 +22,4 @@ Can add notes to notebase. <br>
 End meeting on summary and confirmation/quick runthrough of notes. <br>
 People send in anon. reviews. <br>
 Establish MVP of meeting <br>
+Keep check of ratings and compare with past for analysis <br>
