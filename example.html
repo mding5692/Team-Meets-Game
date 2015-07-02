@@ -1,0 +1,27 @@
+<!-- Just used as an example of how to use ractivejs -->
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Making Team Meetings easier</title>
+  <script src='http://cdn.ractivejs.org/latest/ractive.min.js'></script>
+</head>
+  <div id='container'></div>
+  
+  <script id='template' type='text/ractive'>
+    <p>Hello, {{name}}!</p>
+  </script>
+  
+  <script>
+    var ractive = new Ractive({
+      // The `el` option can be a node, an ID, or a CSS selector.
+      el: '#container',
+      // We could pass in a string, but for the sake of convenience
+      // we're passing the ID of the <script> tag above.
+      template: '#template',
+      // Here, we're passing in some initial data
+      data: { name: 'world' }
+    });
+  </script>
+</body>
+</html>
